@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 33% 97%;
+    --foreground: 220 15% 15%;
+
+    --card: 40 25% 95%;
+    --card-foreground: 220 15% 15%;
+
+    --popover: 40 33% 97%;
+    --popover-foreground: 220 15% 15%;
+
+    --primary: 30 80% 55%;
+    --primary-foreground: 40 33% 97%;
+
+    --secondary: 220 10% 90%;
+    --secondary-foreground: 220 15% 25%;
+
+    --muted: 220 10% 92%;
+    --muted-foreground: 220 10% 50%;
+
+    --accent: 30 80% 55%;
+    --accent-foreground: 40 33% 97%;
+
+    --destructive: 0 72% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 10% 88%;
+    --input: 220 10% 88%;
+    --ring: 30 80% 55%;
+
+    --radius: 1rem;
+
+    --recording: 0 85% 58%;
+    --recording-foreground: 0 0% 100%;
+
+    --mood-happy: 45 90% 55%;
+    --mood-calm: 200 60% 55%;
+    --mood-stressed: 15 80% 55%;
+    --mood-sad: 220 40% 55%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
