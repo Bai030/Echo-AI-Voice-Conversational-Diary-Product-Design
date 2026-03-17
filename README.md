@@ -47,10 +47,10 @@ npm run dev
 ## 📝 使用说明
 ### 📂 核心代码说明
 
-src/lib/ai.ts: AI 调度层。处理记忆提取、画像合并与双通道对话逻辑。
-src/lib/types.ts: 类型定义层。定义了 UserProfile、Entry 和情绪配置。
-src/pages/JournalPage.tsx: 输入与进化层。实现 AI 总结与本地记忆的静默更新。
-src/components/TimelineCalendar.tsx: 可视化层。实现情绪热力图的色彩渲染。
+- src/lib/ai.ts: AI 调度层。处理记忆提取、画像合并与双通道对话逻辑。
+- src/lib/types.ts: 类型定义层。定义了 UserProfile、Entry 和情绪配置。
+- src/pages/JournalPage.tsx: 输入与进化层。实现 AI 总结与本地记忆的静默更新。
+- src/components/TimelineCalendar.tsx: 可视化层。实现情绪热力图的色彩渲染。
 
 
 ## 🛡️ 隐私说明
