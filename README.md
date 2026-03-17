@@ -58,5 +58,4 @@ npm run dev
 
 ## 💡 如何验证 AI 记忆？
 在 Edge/Chrome 中按 F12 -> Application (应用) -> Local Storage (本地存储)。
-
 查看 user_profile 键值，见证 AI 对你的理解是如何一步步“进化”的。
