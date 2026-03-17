@@ -26,7 +26,7 @@
 
 ### 1. 克隆并安装
 ```sh
-git clone <YOUR_GIT_URL>
+git clone <https://github.com/Bai030/Echo-AI-Voice-Conversational-Diary-Product-Design.git>
 cd <YOUR_PROJECT_NAME>
 npm install
 ```
